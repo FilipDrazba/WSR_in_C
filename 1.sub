@@ -1,0 +1,8 @@
+universe   = vanilla
+executable = /bin/echo
+arguments  = "Testuję HTCondor na Dockerze!"
+output     = job.out
+error      = job.err
+log        = job.log
+queue
+

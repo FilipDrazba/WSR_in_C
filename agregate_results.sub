@@ -1,0 +1,11 @@
+executable = aggregate_results.py
+arguments = $(ClusterId)
+output = aggregate_results_$(ClusterId).out
+error = aggregate_results_$(ClusterId).err
+log = aggregate_results_$(ClusterId).log
+
+request_cpus = 1
+request_memory = 1 GB
+request_disk = 1 GB
+
+queue
